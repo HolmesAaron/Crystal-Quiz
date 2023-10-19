@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Crystal Quiz</title>
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="main.js"></script>
+  </head>
+  <body>
+    <h1>Crystal Quiz</h1>
+    <hr />
+    <h2>Question 1</h2>
+    <img src="img/Earth-crust.png" alt="crust" class="img" />
+    <p>What is the most abundant mineral in the Earths crust?</p>
+    <p>Answer: <input type="text" id="answer1" /> <span id="output1"></span></p>
+    <hr />
+    <h2>Question 2</h2>
+    <img src="img/Water-agate.png" alt="enhydro" class="img" />
+    <p>
+      True or false: Agates that contain pockeets of water are called "Sea
+      Agates"
+    </p>
+    <p>
+      Answer: <input type="text" id="answer2" />
+      <span id="output2">(accepted answers: false/incorrect) </span>
+    </p>
+    <hr />
+    <h2>Question 3</h2>
+    <img src="img/Macromolecule.jpg" alt="molecule" class="img" />
+    <p>
+      True or false: Some crystals, including diamonds, are made up of one giant
+      molecule.
+    </p>
+    <p>
+      Answer: <input type="text" id="answer3" />
+      <span id="output3">(accepted asnwers: true/correct)</span>
+    </p>
+    <hr />
+    <h2>Question 4</h2>
+    <img src="img/Glow-Rocks.jpg" alt="glow rocks" class="img" />
+    <p>Which of these crystals glows under ultraviolet light?</p>
+    <p>
+      Answer:
+      <select id="answer4">
+        <option value="Empty"></option>
+        <option value="Quartz">Quartz</option>
+        <option value="Ruby">Ruby</option>
+        <option value="Emerald">Emerald</option>
+      </select>
+      <span id="output4"></span>
+    </p>
+    <hr />
+    <button id="btn">Mark Quiz</button>
+    <h3>
+      Your Score: <span id="numCorrect">--</span> / 4 (<span id="percentCorrect"
+        >--</span
+      >%)
+    </h3>
+    <p><span id="goodBad"></span></p>
+    <hr />
+  </body>
+</html>
